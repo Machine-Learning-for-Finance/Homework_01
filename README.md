@@ -38,3 +38,9 @@ tag: `latest`.  So for example to pull it from my personal DockerHub
 you would run the command:
 
 `docker pull gengler1123/homework01:latest`
+
+and run with the command:
+
+`docker run -p 8000:8000 gengler1123/homework01:latest`
+
+Which will run an container of the Docker image which can communicate via port `8000`.
